@@ -56,10 +56,10 @@ def test_validate_html_4():
 def test_validate_html_5():
     assert HTML_Validator.validate_html('<strong></strong><b></b>')
 
-def test_validate_html_6():
+def test_validate_html_6a():
     assert HTML_Validator.validate_html('<strong><b></b></strong>')
 
-def test_validate_html_6():
+def test_validate_html_6b():
     assert HTML_Validator.validate_html('<strong><strong></strong></strong>')
 
 def test_validate_html_7():
